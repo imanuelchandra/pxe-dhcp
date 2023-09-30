@@ -1,0 +1,33 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.4.1
+
+# authoring-byte-order entry is generated, DO NOT DELETE
+authoring-byte-order little-endian;
+
+lease 192.168.10.101 {
+  starts 6 2023/09/30 05:26:44;
+  ends 0 2023/10/01 05:26:44;
+  tstp 0 2023/10/01 05:26:44;
+  cltt 6 2023/09/30 05:26:44;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet ac:9e:17:97:f6:63;
+  uid "\377\027\227\366c\000\004,I\344J7\224&N\253d\254\236\027\227\366c";
+  set vendor-class-identifier = "dhcpcd-7.1.0:Linux-5.10.0-25-amd64:x86_64:GenuineIntel";
+  client-hostname "asus-x455ld";
+}
+lease 192.168.10.100 {
+  starts 6 2023/09/30 06:55:43;
+  ends 0 2023/10/01 06:55:43;
+  tstp 0 2023/10/01 06:55:43;
+  cltt 6 2023/09/30 06:55:43;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet ac:9e:17:97:f6:63;
+  uid "\001\254\236\027\227\366c";
+  client-hostname "asus-x455ld";
+}
+server-duid "\000\001\000\001,\251,\303\000\025]\317\324N";
+
