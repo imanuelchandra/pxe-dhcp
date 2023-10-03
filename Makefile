@@ -20,7 +20,6 @@ run_pxe_dhcp:
 			-e DHCP_LEASES=${DHCP_LEASES} \
 			--net host \
 			-v ./config:/config \
-			-v ./data:/data \
 			-v ./log:/log \
 			-v ./scripts:/scripts \
 			${AUTHOR}/${REPOSITORY}:${PXE_DHCP_SERVER_VERSION} eth0

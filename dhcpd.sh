@@ -13,14 +13,14 @@ stop(){
 
 init(){
     # declare directory required by this image in array
-    declare -a dir_req=("/config" "/data" "/scripts" "/log")
+    declare -a dir_req=("/config" "/scripts" "/log")
  
     # loop through the array of directory list required by this image
     for i in "${dir_req[@]}"
     do
         # check for required directory, if it is does not exits, throw exit code 1
         if [ ! -d "$i" ]; then
-            echo "Please ensure config, data, scripts, and log directory exists."
+            echo "Please ensure config, scripts, and log directory exists."
             exit 1
         fi
 
