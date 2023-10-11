@@ -5,35 +5,100 @@
 authoring-byte-order little-endian;
 
 lease 192.168.10.100 {
-  starts 6 2023/09/30 16:31:12;
-  ends 0 2023/10/01 16:31:12;
-  tstp 0 2023/10/01 16:31:12;
-  cltt 6 2023/09/30 16:31:12;
+  starts 3 2023/10/04 10:41:14;
+  ends 4 2023/10/05 10:41:14;
+  tstp 4 2023/10/05 10:41:14;
+  cltt 3 2023/10/04 10:41:14;
   binding state free;
   hardware ethernet ac:9e:17:97:f6:63;
   uid "\001\254\236\027\227\366c";
 }
 lease 192.168.10.101 {
-  starts 0 2023/10/01 13:37:17;
-  ends 1 2023/10/02 13:37:17;
-  tstp 1 2023/10/02 13:37:17;
-  cltt 0 2023/10/01 13:37:17;
+  starts 5 2023/10/06 06:28:33;
+  ends 6 2023/10/07 06:28:33;
+  tstp 6 2023/10/07 06:28:33;
+  cltt 5 2023/10/06 06:28:33;
   binding state free;
   hardware ethernet ac:9e:17:97:f6:63;
   uid "\377\027\227\366c\000\004,I\344J7\224&N\253d\254\236\027\227\366c";
   set vendor-class-identifier = "dhcpcd-7.1.0:Linux-5.10.0-25-amd64:x86_64:GenuineIntel";
 }
-server-duid "\000\001\000\001,\256\335\010\000\025]L\267U";
-
-lease 192.168.10.101 {
-  starts 2 2023/10/03 14:10:15;
-  ends 3 2023/10/04 14:10:15;
-  cltt 2 2023/10/03 14:10:15;
+lease 192.168.10.102 {
+  starts 3 2023/10/11 08:17:16;
+  ends 3 2023/10/11 08:27:16;
+  tstp 3 2023/10/11 08:27:16;
+  cltt 3 2023/10/11 08:17:16;
+  binding state free;
+  hardware ethernet 00:1e:ec:d4:7a:54;
+  uid "\001\000\036\354\324zT";
+  set vendor-class-identifier = "MSFT 5.0";
+}
+lease 192.168.10.103 {
+  starts 3 2023/10/11 09:07:12;
+  ends 3 2023/10/11 09:17:12;
+  tstp 3 2023/10/11 09:17:12;
+  cltt 3 2023/10/11 09:07:12;
   binding state active;
   next binding state free;
   rewind binding state free;
-  hardware ethernet ac:9e:17:97:f6:63;
-  uid "\377\027\227\366c\000\004,I\344J7\224&N\253d\254\236\027\227\366c";
-  set vendor-class-identifier = "dhcpcd-7.1.0:Linux-5.10.0-25-amd64:x86_64:GenuineIntel";
-  client-hostname "asus-x455ld";
+  hardware ethernet 00:1e:ec:d4:7a:54;
+  set vendor-class-identifier = "PXEClient:Arch:00000:UNDI:002001";
+}
+server-duid "\000\001\000\001,\271\015\245\000\025]'f\360";
+
+lease 192.168.10.102 {
+  starts 3 2023/10/11 09:09:00;
+  ends 3 2023/10/11 09:19:00;
+  cltt 3 2023/10/11 09:09:00;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:1e:ec:d4:7a:54;
+  uid "\001\000\036\354\324zT";
+  set vendor-class-identifier = "PXEClient:Arch:00000:UNDI:002001";
+}
+lease 192.168.10.102 {
+  starts 3 2023/10/11 09:11:51;
+  ends 3 2023/10/11 09:21:51;
+  cltt 3 2023/10/11 09:11:51;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:1e:ec:d4:7a:54;
+  uid "\001\000\036\354\324zT";
+  set vendor-class-identifier = "MSFT 5.0";
+  client-hostname "REVEN-PC";
+}
+lease 192.168.10.102 {
+  starts 3 2023/10/11 09:16:50;
+  ends 3 2023/10/11 09:26:50;
+  cltt 3 2023/10/11 09:16:50;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:1e:ec:d4:7a:54;
+  uid "\001\000\036\354\324zT";
+  set vendor-class-identifier = "MSFT 5.0";
+  client-hostname "REVEN-PC";
+}
+lease 192.168.10.103 {
+  starts 3 2023/10/11 09:07:12;
+  ends 3 2023/10/11 09:17:12;
+  tstp 3 2023/10/11 09:17:12;
+  cltt 3 2023/10/11 09:08:39;
+  binding state free;
+  hardware ethernet 00:1e:ec:d4:7a:54;
+  set vendor-class-identifier = "PXEClient:Arch:00000:UNDI:002001";
+}
+lease 192.168.10.102 {
+  starts 3 2023/10/11 09:21:49;
+  ends 3 2023/10/11 09:31:49;
+  cltt 3 2023/10/11 09:21:49;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:1e:ec:d4:7a:54;
+  uid "\001\000\036\354\324zT";
+  set vendor-class-identifier = "MSFT 5.0";
+  client-hostname "REVEN-PC";
 }
